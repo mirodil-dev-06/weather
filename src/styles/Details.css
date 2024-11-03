@@ -1,0 +1,37 @@
+.details{
+    width: 850px;
+    height: 300px;
+    background-color: transparent;
+    box-shadow: 5px 10px 10px #000000;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.details .details__temp{
+    font-size: 50px;
+    font-weight: 900;
+    font-family: sans-serif;
+    margin-top: -10px;
+}
+.details .details__temp2{
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-top: -30px;
+}
+.details .details__temp2 span{
+    font-size: 25px;
+    font-weight: 600;
+}
+.details__info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.details__info h2{
+    font-family: sans-serif;
+}
+.details__info p{
+    font-family: sans-serif;
+    margin-top: -15px;
+}

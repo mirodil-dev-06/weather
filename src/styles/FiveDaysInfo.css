@@ -1,0 +1,23 @@
+.weather__forecast{
+    width: 400px;
+    height: 350px;
+    background-color: transparent;
+    box-shadow: 5px 10px 10px #000000;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.weather__forecast .weather__forecast-title{
+    text-align: center;
+    font-family: sans-serif;
+}
+.weather__forecast .weather__forecast-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.weather__forecast .weather__forecast-item .weather__forecast-item__icon{
+   font-size: 30px;
+}

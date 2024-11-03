@@ -1,0 +1,19 @@
+.time{
+    width: 450px;
+    height: 300px;
+    background-color: transparent;
+    box-shadow: 5px 10px 10px #000000;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.time .city__name{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.time .current__data{
+    font-size: 20px;
+ }

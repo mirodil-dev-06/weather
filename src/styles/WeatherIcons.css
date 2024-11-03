@@ -1,0 +1,8 @@
+.weather-icon {
+    font-size: 110px;
+    margin-bottom: 10px;
+  }
+.weather-icon p{
+    font-size: 40px;
+    font-family: sans-serif;
+}

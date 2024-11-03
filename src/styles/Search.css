@@ -1,0 +1,21 @@
+.search{
+    width: 400px;
+    height: 45px;
+    background-color: #9E9E9E;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 15px;
+    box-shadow: 4px 7px 7px #00000051;
+}
+.search .fa-solid{
+    font-size: 25px;
+}
+.search input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #777;
+}
+

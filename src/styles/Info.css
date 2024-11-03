@@ -1,0 +1,20 @@
+.info{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 15px;
+}
+.info .info__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.info .info__item h5{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: -1px;
+}
+.info .info__item p{
+    font-family: sans-serif;
+    margin-top: -20px;
+}
